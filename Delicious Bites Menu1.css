@@ -1,0 +1,35 @@
+h2 {
+    text-align: center;
+    background-color: rgb(2, 4, 12);
+    padding: 20px;
+    color: aliceblue;
+}
+ul {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    background-color: rgb(178, 207, 221);
+}
+ ul li {
+    display: inline;
+    padding: 15px;
+}
+h2 ul {
+
+}
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px ;
+    color: cadetblue;
+    background-color: black;
+}
+img {
+    width: 100%; /* L'image prend 100% de la largeur de son conteneur */
+    height: auto; /* Conserve les proportions */
+    border-radius: 15px; /* Coins arrondis */
+    border: 5px solid #333; /* Bordure grise autour de l'image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre portée autour de l'image */
+    transition: transform 0.3s ease, filter 0.3s ease; /* Transition fluide */
+  }
+  2
+  
