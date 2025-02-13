@@ -1,0 +1,20 @@
+
+body {
+background-image: url('https://img.freepik.com/vecteurs-libre/menu-restaurant-moderne-pour-restauration-rapide_52683-48982.jpg?semt=ais_hybrid');
+    background-size: cover; /* L'image s'ajuste pour couvrir toute la page */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Empêcher l'image de se répéter */
+    margin: 0; /* Retirer les marges par défaut */
+    height: 100vh; /* Utiliser toute la hauteur de la fenêtre */
+  }
+
+ .bar { 
+  text-align: center;
+  margin-right: 20px; /* Espacement entre les éléments */
+  text-decoration: none; /* Supprimer le soulignement */
+  font-size: 18px; /* Taille de police standard */
+  padding: 5px 10px; /* Espacement autour des liens */
+  border-radius: 5px; /* Rendre les bords arrondis */
+  text-align: right; /* Aligner le dernier élément à droite */
+  flex-grow: 1; /* Faire en sorte que le dernier élément prenne plus de place */
+}

@@ -1,27 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - Restaurant </title>
-  <link rel="stylesheet" href="Delicious Bites Menu1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation et Contact</title>
+    <link rel="stylesheet" href="Delicious Bites Menu1.css">
+    
+  <body>
 </head>
-<body>
-    <h1> Contactez Nous</h1>
-    <nav>
-        <ul>
-            <li><a href="#">mail</a></li>
-            <li><a href="#">whatsapp</a></li>
+<body class="contact">
 
-        </ul>
-    </nav>
-    
-           
-        <label for="name">Nom :</label>
-        <input type="Text" id="name" name="name">
-        <label for="email">Email :</label>
-        <input type="email" id="email" name="email" required>
+    <section class="reservation-contact">
+        <h2>Réservez une Table</h2>
         
+        <!-- Formulaire de réservation -->
+        <form class="reservation-form">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Votre email" required>
+
+            <label for="date">Date :</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="heure">Heure :</label>
+            <input type="time" id="heure" name="heure" required>
+
+            <label for="nombre">Nombre de personnes :</label>
+            <input type="number" id="nombre" name="nombre" min="1" required>
+
+            <button type="submit">Réserver</button>
+            
+        </form>
+
+        <!-- Informations de contact -->
+        <div class="contact-info">
+            <h3>Contactez-nous</h3>
+            <p><strong>Téléphone :</strong>28725307</p>
+            <p><strong>Email :</strong> hbiib48@gmail.com</p>
+            <p><strong>Adresse :</strong> 123 Rue du Restaurant, Paris, France</p>
+        </div>
     </section>
-    
+
 </body>
+</html>
+
